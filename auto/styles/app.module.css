@@ -1,0 +1,47 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.imx {
+  background-image: url(/ca.png);
+  background-repeat: repeat;
+  width: 100%;
+  background-size: cover;
+  height: 20rem;
+}
+
+.text {
+  text-align: center;
+  margin: 0 0 6% 0;
+}
+
+.letter {
+  color: #0879c9;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto 0 auto;
+}
+
+@media only screen and (min-width: 992px) {
+  .section {
+    flex-direction: row;
+    width: 80%;
+    align-items: flex-start;
+    margin: 0 auto 0 auto;
+  }
+
+  .text {
+    margin: 2% 0 3% 0;
+  }
+
+  .imx {
+    height: 25rem;
+  }
+}

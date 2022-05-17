@@ -1,0 +1,43 @@
+.search {
+  display: none;
+}
+
+@media only screen and (min-width: 992px) {
+  .search {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(249, 249, 249);
+    margin: 3% 0 0 1%;
+    padding: 0 2% 5% 2%;
+    box-shadow: -2px -2px 5px #aaa;
+  }
+
+  .tex {
+    color: #f45c5e;
+  }
+
+  .first {
+    display: flex;
+  }
+
+  .inpt {
+    box-shadow: 0 0 3px #aaa;
+    border-color: #aaa;
+    padding: 1% 0 1% 6%;
+    width: 90%;
+  }
+
+  .bt {
+    background-color: #0879c9;
+    border-color: transparent;
+    margin-left: 1%;
+    width: 15%;
+    border-radius: 2px;
+  }
+
+  .spa {
+    border-top: 2px solid #ddd;
+    height: 1rem;
+    margin: 2% 0 2% 0;
+  }
+}
